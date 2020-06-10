@@ -1,14 +1,32 @@
 const initialState = {
-  result: null,
+  usersData: [],
+  usersError: '',
+  usersAppData: [],
+  usersAppError: ''
 };
 
 const rootReducer = (state = { ...initialState }, action) => {
   switch (action.type) {
-    case "SIMPLE_ACTION":
+    case "USERS_LIST":
       return {
         ...state,
-        result: action.payload,
+        usersData: action.payload,
       };
+      case "USERS_LIST_ERROR":
+        return {
+          ...state,
+          usersError: action.payload
+        }
+      case "USERS_APP_LIST":
+        return {
+          ...state,
+          usersAppData: action.payload
+        }
+        case "USERS_APP_ERROR":
+          return {
+            ...state,
+            usersAppError: action.payload
+          }
     default:
       return state;
   }
