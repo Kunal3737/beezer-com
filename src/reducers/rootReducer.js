@@ -27,6 +27,10 @@ const rootReducer = (state = { ...initialState }, action) => {
             ...state,
             usersAppError: action.payload
           }
+          // case 'APPS_RATING':
+          //   return {
+          //     ...state,
+          //   }
     default:
       return state;
   }
