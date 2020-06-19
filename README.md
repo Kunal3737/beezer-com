@@ -1,21 +1,68 @@
-# Coding Challenge
-This is a simple test which aims to demonstrate an ability to set up a Firebase project and present the data in a React app. Familiarity with React.js is assumed, however, no prior knowledge of Firebase is required. Besides completing the task according to the set of instructions below, we are looking for well written code and a demonstration of understanding the best practices around React and Redux.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Use of any further dependencies besides React, Redux, Firebase and create-react-app is totally optional and up to the developer.
+## Available Scripts
 
-## Instructions
+In the project directory, you can run:
 
-1. Clone this repo and create your own git repository.
-2. Push your git repo to either github, bitbucket or gitlab
-3. Create a free Firebase project at https://firebase.google.com/
-4. In the project's database page, import the provided JSON from the data.json file.
-5. Bootstrap a new React app with create-react-app (https://github.com/facebookincubator/create-react-app)
-6. Follow the Firebase Web SDK setup guide to initialize Firebase in your react app (https://firebase.google.com/docs/web/setup).
-7. The provided data structure contains a list of users and accounts. Each user has an account and each account can contain one or more apps. In your react app, get the users from Firebase and for each user get the appropriate account.
-8. Render a list of users, displaying the account id and app titles belonging to each user.
-9. When done, send us a link to your git repo!
+### `npm start`
 
-## Bonus
-Complete this section for extra credit
+Runs the app in the development mode.<br />
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-1. Add a rating system to the apps that allows you to rate it out of 5 (should save to db)
+The page will reload if you make edits.<br />
+You will also see any lint errors in the console.
+
+### `npm test`
+
+Launches the test runner in the interactive watch mode.<br />
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `npm run build`
+
+Builds the app for production to the `build` folder.<br />
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.<br />
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+
+### Analyzing the Bundle Size
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+
+### Making a Progressive Web App
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+
+### Advanced Configuration
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+
+### Deployment
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+
+### `npm run build` fails to minify
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
