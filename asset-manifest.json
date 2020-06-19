@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/beezer-com/static/css/main.8e2047dc.chunk.css",
+    "main.js": "/beezer-com/static/js/main.fb262e71.chunk.js",
+    "main.js.map": "/beezer-com/static/js/main.fb262e71.chunk.js.map",
+    "runtime-main.js": "/beezer-com/static/js/runtime-main.0db08983.js",
+    "runtime-main.js.map": "/beezer-com/static/js/runtime-main.0db08983.js.map",
+    "static/js/2.2155f059.chunk.js": "/beezer-com/static/js/2.2155f059.chunk.js",
+    "static/js/2.2155f059.chunk.js.map": "/beezer-com/static/js/2.2155f059.chunk.js.map",
+    "index.html": "/beezer-com/index.html",
+    "precache-manifest.2ebce411a488a4e051b7df51db9de17d.js": "/beezer-com/precache-manifest.2ebce411a488a4e051b7df51db9de17d.js",
+    "service-worker.js": "/beezer-com/service-worker.js",
+    "static/css/main.8e2047dc.chunk.css.map": "/beezer-com/static/css/main.8e2047dc.chunk.css.map",
+    "static/js/2.2155f059.chunk.js.LICENSE.txt": "/beezer-com/static/js/2.2155f059.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0db08983.js",
+    "static/js/2.2155f059.chunk.js",
+    "static/css/main.8e2047dc.chunk.css",
+    "static/js/main.fb262e71.chunk.js"
+  ]
+}
